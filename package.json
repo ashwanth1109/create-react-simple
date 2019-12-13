@@ -1,0 +1,20 @@
+{
+  "name": "react-parcel",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --out-dir docs --public-url ./",
+    "rebuild": "rm -rf ./docs && npm run build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "parcel-bundler": "^1.12.3"
+  }
+}
