@@ -36,7 +36,10 @@
     "rebuild": "rm -rf ./docs && npm run build"
   },
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.6",
