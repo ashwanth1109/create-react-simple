@@ -2,16 +2,26 @@
   "name": "react-parcel",
   "version": "0.1.0",
   "description": "",
+  "main": "index.sh",
+  "bin": {
+    "create-react-parcel": "./index.sh"
+  },
+  "homepage": "https://github.com/ashwanth1109/create-react-parcel#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashwanth1109/create-react-parcel.git"
+  },
+  "author": {
+    "email": "ashwanth1109@gmail.com",
+    "name": "Ashwanth A R"
+  },
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html --out-dir docs --public-url ./",
     "rebuild": "rm -rf ./docs && npm run build"
   },
   "license": "MIT",
-  "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.6",
