@@ -1,7 +1,15 @@
 {
   "name": "create-react-simple",
   "version": "1.0.1",
-  "description": "",
+  "description": "A tool to create a simple (really) react app built with parcel and ready to deploy to github pages",
+  "keywords": [
+    "react",
+    "parcel",
+    "simple",
+    "create",
+    "github pages",
+    "boilerplate"
+  ],
   "main": "index.sh",
   "bin": {
     "create-react-simple": "./index.sh"

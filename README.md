@@ -9,6 +9,10 @@ Inspired by the `nano-react-app` project by Adrian Li
 
 ### Booting Up
 
+To create your simple react app, run
+
+> npx create-react-simple my-app
+
 After you have run `npx create-react-parcel my-app`, cd into your directory:
 
 ```

@@ -39,9 +39,10 @@ import React from "react";
 export default () => (
   <>
     <h1>
-      Welcome to Create React Simple App! 📦 Build with Parcel 🚀 Deploy to
-      Github Pages{" "}
+      Welcome to Create React Simple App!
     </h1>
+    <h3>📦 Build with Parcel</h3>
+    <h3>🚀 Deploy to Github Pages</h3>
   </>
 );
 EOF
@@ -84,6 +85,10 @@ Note: Also, has support for deploying your site to github pages.
 Inspired by the nano-react-app project by Adrian Li
 
 ### Booting Up
+
+To create your simple react app, run
+
+> npx create-react-simple my-app
 
 After you have run npx create-react-parcel my-app, cd into your directory:
 
