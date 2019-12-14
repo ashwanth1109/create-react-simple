@@ -10,7 +10,7 @@
     "github pages",
     "boilerplate"
   ],
-  "main": "index.sh",
+  "main": "docs/index.html",
   "bin": {
     "create-react-simple": "./index.sh"
   },
@@ -21,7 +21,7 @@
     "package.json",
     "README.md"
   ],
-  "homepage": "https://github.com/ashwanth1109/create-react-simple#readme",
+  "homepage": "https://ashwanth1109.github.io/create-react-simple/",
   "repository": {
     "type": "git",
     "url": "https://github.com/ashwanth1109/create-react-simple.git"
@@ -32,7 +32,7 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --out-dir docs --public-url ./",
+    "build": "parcel build src/index.html --out-dir docs --public-url ./docs/index.html",
     "rebuild": "rm -rf ./docs && npm run build"
   },
   "license": "MIT",
