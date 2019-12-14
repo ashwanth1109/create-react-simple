@@ -1,7 +1,8 @@
-# Create React Parcel (CRP) App
+# Create React Simple App
 
 > by [Ashwanth A R](https://github.com/ashwanth1109)
 
+Built with Parcel.
 Note: Also, has support for deploying your site to github pages.
 
 Inspired by the `nano-react-app` project by Adrian Li

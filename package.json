@@ -1,15 +1,15 @@
 {
-  "name": "create-react-parcel",
+  "name": "create-react-simple",
   "version": "1.0.0",
   "description": "",
   "main": "index.sh",
   "bin": {
-    "create-react-parcel": "./index.sh"
+    "create-react-simple": "./index.sh"
   },
-  "homepage": "https://github.com/ashwanth1109/create-react-parcel#readme",
+  "homepage": "https://github.com/ashwanth1109/create-react-simple#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ashwanth1109/create-react-parcel.git"
+    "url": "https://github.com/ashwanth1109/create-react-simple.git"
   },
   "author": {
     "email": "ashwanth1109@gmail.com",

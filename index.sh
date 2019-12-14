@@ -38,7 +38,10 @@ import React from "react";
 
 export default () => (
   <>
-    <h1>Welcome to Create React Parcel! 📦 🚀 </h1>
+    <h1>
+      Welcome to Create React Simple App! 📦 Build with Parcel 🚀 Deploy to
+      Github Pages{" "}
+    </h1>
   </>
 );
 EOF
@@ -46,7 +49,7 @@ EOF
 cat <<EOF >$1/src/index.html
 <html>
   <head>
-    <title>Create React Parcel</title>
+    <title>Create React Simple</title>
   </head>
   <body>
     <div id="root"></div>
@@ -71,10 +74,11 @@ EOF
 
 cat <<EOF >$1/README.md
 
-# Create React Parcel (CRP) App
+# Create React Simple App
 
 > by [Ashwanth A R](https://github.com/ashwanth1109)
 
+Built with Parcel.
 Note: Also, has support for deploying your site to github pages.
 
 Inspired by the nano-react-app project by Adrian Li
