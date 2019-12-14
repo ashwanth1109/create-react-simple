@@ -32,7 +32,7 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --out-dir docs --public-url ./docs/index.html",
+    "build": "parcel build src/index.html --out-dir docs --public-url ./",
     "rebuild": "rm -rf ./docs && npm run build"
   },
   "license": "MIT",
