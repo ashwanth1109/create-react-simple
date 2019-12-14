@@ -14,6 +14,13 @@
   "bin": {
     "create-react-simple": "./index.sh"
   },
+  "files": [
+    "CHANGELOG.md",
+    "index.sh",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
   "homepage": "https://github.com/ashwanth1109/create-react-simple#readme",
   "repository": {
     "type": "git",
