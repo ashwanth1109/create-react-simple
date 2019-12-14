@@ -13,8 +13,8 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"react":"n8MK","object-assign":"J4Nk","scheduler":"MDSO"}],"NKHc":[function(require,module,exports) {
 "use strict";function _(){if("undefined"!=typeof __REACT_DEVTOOLS_GLOBAL_HOOK__&&"function"==typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE){0;try{__REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE(_)}catch(O){console.error(O)}}}_(),module.exports=require("./cjs/react-dom.production.min.js");
 },{"./cjs/react-dom.production.min.js":"i17t"}],"leDv":[function(require,module,exports) {
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=t(require("react"));function t(e){return e&&e.__esModule?e:{default:e}}var r=function(){return e.default.createElement(e.default.Fragment,null,e.default.createElement("h1",null,"Welcome to React Parcel App! 📦 🚀"))};exports.default=r;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=t(require("react"));function t(e){return e&&e.__esModule?e:{default:e}}var r=function(){return e.default.createElement(e.default.Fragment,null,e.default.createElement("h1",null,"Welcome to Create React Parcel! 📦 🚀 "))};exports.default=r;
 },{"react":"n8MK"}],"Focm":[function(require,module,exports) {
 "use strict";var e=u(require("react")),t=u(require("react-dom")),r=u(require("./components/App"));function u(e){return e&&e.__esModule?e:{default:e}}t.default.render(e.default.createElement(r.default,null),document.getElementById("root"));
 },{"react":"n8MK","react-dom":"NKHc","./components/App":"leDv"}]},{},["Focm"], null)
-//# sourceMappingURL=src.be927055.js.map
+//# sourceMappingURL=src.1858c34e.js.map
