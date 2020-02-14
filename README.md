@@ -3,37 +3,20 @@
 > by [Ashwanth A R](https://github.com/ashwanth1109)
 
 Built with Parcel.
-Note: Also, has support for deploying your site to github pages.
+Note: Also has support for deploying your site to github pages.
 
 Inspired by the `nano-react-app` project by Adrian Li
 
 ### Booting Up
 
-To create your simple react app, run
+To create your simple react app, run:
 
 > npx create-react-simple my-app
 
-After you have run `npx create-react-parcel my-app`, cd into your directory:
+### Running the project
 
 ```
 cd my-app
-```
-
-You should have a `src` directory, `.gitignore`, `package.json`, and `README.md` files.
-
-To get started, you must first install npm dependencies (babel, parcel, and react). Run the following command in your terminal:
-
-```
-npm install
-```
-
-This will create the `node_modules` folder for you.
-
-### Running the project
-
-You can have parcel bundle up your app into a `dist` folder and run it on a server for you. Simply run,
-
-```
 npm start
 ```
 
@@ -73,7 +56,7 @@ git commit -m 'Initial Commit'
 Then add your repo to a remote origin and push to Github:
 
 ```
-git remote add origin https://github.com/${YOUR_GITHUB_ID}/${YOUR_REPO_NAME}.git
+git remote add origin https://github.com/{YOUR_GITHUB_ID}/{YOUR_REPO_NAME}.git
 git push -u origin master
 ```
 
@@ -92,7 +75,7 @@ You will see the page refresh with the following information:
 
 ```
 Your site is ready to be published at
-https://${YOUR_GITHUB_ID}.github.io/${YOUR_GITHUB_NAME}/.
+https://{YOUR_GITHUB_ID}.github.io/{YOUR_GITHUB_NAME}/.
 ```
 
 Your app will be deployed at this URL. It can take anywhere between 20 mins to an hour before you can see this published.

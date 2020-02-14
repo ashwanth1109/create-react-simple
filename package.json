@@ -10,9 +10,9 @@
     "github pages",
     "boilerplate"
   ],
-  "main": "index.sh",
+  "main": "lib/index.js",
   "bin": {
-    "create-react-simple": "./index.sh"
+    "create-react-simple": "./lib/index.js"
   },
   "files": [
     "CHANGELOG.md",
@@ -37,6 +37,8 @@
   },
   "license": "MIT",
   "dependencies": {
+    "chalk": "^3.0.0",
+    "inquirer": "^7.0.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
