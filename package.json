@@ -16,7 +16,8 @@
   },
   "files": [
     "CHANGELOG.md",
-    "index.sh",
+    "lib/index.js",
+    "lib/helpers/*",
     "LICENSE",
     "package.json",
     "README.md"
